@@ -118,13 +118,3 @@ http://127.0.0.1:5000
 - Advanced Animations
 
 ---
-
-## Author
-
-Ashish Kumar
-
----
-
-## License
-
-This project is created for learning and educational purposes.
