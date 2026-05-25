@@ -1,0 +1,16 @@
+project: calculator_app
+
+features:
+  - addition
+  - subtraction
+  - multiplication
+  - division
+
+validation:
+  division_by_zero:
+    allowed: false
+    message: "Cannot divide by zero"
+
+ui:
+  dark_theme: true
+  responsive: true
