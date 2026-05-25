@@ -1,0 +1,6 @@
+layout:
+  centered_container: true
+
+style:
+  rounded_inputs: true
+  dark_mode: true

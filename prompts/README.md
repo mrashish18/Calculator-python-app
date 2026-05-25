@@ -1,6 +1,6 @@
-# Calculator Python App - Vibe Coding
+# Calculator Python App - SDD Workflow
 
-This project was built using Python Flask and Jinja2 following a vibe coding workflow.
+This project demonstrates Spec Driven Development using Python Flask.
 
 ## Features
 
@@ -8,8 +8,15 @@ This project was built using Python Flask and Jinja2 following a vibe coding wor
 - Subtraction
 - Multiplication
 - Division
-- Dark mode UI
-- Responsive design
+- Dark theme UI
+
+## Specifications
+
+Project specifications are defined using YAML files inside the `specs` folder.
+
+## Architecture
+
+Documentation is available inside the `docs` folder.
 
 ## Tech Stack
 
@@ -17,8 +24,4 @@ This project was built using Python Flask and Jinja2 following a vibe coding wor
 - Flask
 - HTML
 - CSS
-- Jinja2
-
-## Workflow
-
-This branch demonstrates AI-assisted rapid application development using vibe coding principles.
+- YAML
