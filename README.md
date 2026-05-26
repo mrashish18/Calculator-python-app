@@ -64,6 +64,9 @@ This branch focuses on rapid AI-assisted development using iterative prompting, 
 ```text
 calculator-python-app/
 │
+├── docs/
+│   └── architecture.md
+│
 ├── prompts/
 │   └── vibe_prompt.md
 │
@@ -71,6 +74,10 @@ calculator-python-app/
 │   ├── calculator-ui_01.png
 │   ├── calculator-ui_02.png
 │   └── calculator-ui_03.png
+│
+├── specs/
+│   ├── calculator_spec.yaml
+│   └── ui_spec.yaml
 │
 ├── static/
 │   └── style.css
