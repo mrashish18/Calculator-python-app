@@ -1,6 +1,8 @@
 # OpenSpec Calculator
 
-Modern AI-styled calculator application built using Python Flask and Spec Driven Development workflow.
+## Workflow Type
+
+This branch demonstrates rapid AI-assisted vibe coding workflow focused on fast iterative development and creative UI experimentation.
 
 ---
 
