@@ -11,12 +11,21 @@ This branch demonstrates rapid AI-assisted vibe coding workflow focused on fast 
 - Modern Glassmorphism UI
 - Clickable Calculator Buttons
 - Keyboard Support
-- Calculation History
-- Clear History Button
+- Addition
+- Subtraction
+- Multiplication
+- Division
 - Responsive Design
-- AI Styled Frontend
-- Flask Backend
-- YAML Specifications
+- Calculation History
+- Clear History Feature
+- Sound Effects
+- Interactive UI Animations
+
+---
+
+## Development Style
+
+This branch focuses on rapid AI-assisted development using iterative prompting, UI experimentation, and fast feature implementation.
 
 ---
 
@@ -27,7 +36,6 @@ This branch demonstrates rapid AI-assisted vibe coding workflow focused on fast 
 - HTML
 - CSS
 - JavaScript
-- YAML
 
 ---
 
@@ -56,67 +64,55 @@ This branch demonstrates rapid AI-assisted vibe coding workflow focused on fast 
 ```text
 calculator-python-app/
 │
-├── docs/
 ├── prompts/
+│   └── vibe_prompt.md
+│
 ├── screenshots/
 │   ├── calculator-ui_01.png
 │   ├── calculator-ui_02.png
 │   └── calculator-ui_03.png
 │
-├── specs/
 ├── static/
-├── templates/
+│   └── style.css
 │
+├── templates/
+│   └── index.html
+│
+├── .gitignore
+├── Procfile
 ├── app.py
 ├── README.md
-├── requirements.txt
-├── Procfile
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
 
-## Spec Driven Development
+## Vibe Coding Workflow
 
-This project demonstrates:
-
-- Vibe Coding Workflow
-- SDD Workflow
-- YAML Specifications
-- Documentation-first Development
-- AI Assisted Development
+1. Generate ideas using AI prompts
+2. Rapidly implement features
+3. Experiment with UI design
+4. Improve interactivity iteratively
+5. Refine calculator experience
+6. Enhance responsiveness and styling
 
 ---
 
-## Run Locally
-
-Install dependencies:
+## Installation
 
 ```bash
 pip install -r requirements.txt
-```
-
-Run Flask app:
-
-```bash
 python app.py
-```
-
-Open browser:
-
-```text
-http://127.0.0.1:5000
 ```
 
 ---
 
-## Future Improvements
+## AI Prompt Workflow
 
-- Scientific Calculator
-- Theme Switcher
-- Voice Calculator
-- Persistent History
-- AI Assistant Integration
-- Advanced Animations
+The project uses AI-assisted prompt engineering for:
+- UI generation
+- Feature enhancement
+- Rapid prototyping
+- Interactive frontend improvements
 
 ---
