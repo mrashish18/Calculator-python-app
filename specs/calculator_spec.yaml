@@ -1,16 +1,17 @@
-project: calculator_app
+application:
+  name: OpenSpec Calculator
 
 features:
   - addition
   - subtraction
   - multiplication
   - division
+  - keyboard_input
+  - history_tracking
 
-validation:
-  division_by_zero:
-    allowed: false
-    message: "Cannot divide by zero"
+backend:
+  framework: Flask
 
-ui:
-  dark_theme: true
+frontend:
+  style: Glassmorphism
   responsive: true

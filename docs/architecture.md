@@ -1,19 +1,25 @@
-# Calculator App Architecture
+# Calculator Architecture
 
 ## Frontend
+
 - HTML
 - CSS
-- Jinja2 Templates
+- JavaScript
 
 ## Backend
-- Flask (Python)
 
-## Workflow
-- Spec Driven Development
-- YAML Specifications
+- Python Flask
 
 ## Features
+
 - Addition
 - Subtraction
 - Multiplication
 - Division
+- Keyboard Support
+- Calculation History
+- Responsive UI
+
+## Workflow
+
+This project follows Spec Driven Development workflow where specifications are defined before implementation.
