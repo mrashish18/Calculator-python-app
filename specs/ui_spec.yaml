@@ -1,6 +1,13 @@
 layout:
-  centered_container: true
+  display_screen: true
+  keypad_grid: true
+  history_panel: true
 
 style:
-  rounded_inputs: true
   dark_mode: true
+  glassmorphism: true
+  responsive_design: true
+
+interaction:
+  mouse_click_support: true
+  keyboard_input: true
