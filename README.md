@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="static/logo/openspec-horizontal.svg" alt="OpenSpec Calculator" width="480">
+  <img src="static/logo/openspec-horizontal-light.svg" alt="OpenSpec Calculator" width="480">
   <p>A modern, specification-driven web calculator built with Flask.</p>
 </div>
 
