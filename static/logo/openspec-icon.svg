@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%" fill="none">
+  <!-- Left Specification Bracket { -->
+  <path d="M 125 106 C 85 106, 72 144, 72 196 L 72 216 C 72 238, 48 256, 48 256 C 48 256, 72 274, 72 296 L 72 316 C 72 368, 85 406, 125 406" 
+        stroke="#38BDF8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right Specification Bracket } -->
+  <path d="M 387 106 C 427 106, 440 144, 440 196 L 440 216 C 440 238, 464 256, 464 256 C 464 256, 440 274, 440 296 L 440 316 C 440 368, 427 406, 387 406" 
+        stroke="#818CF8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Calculator Body Container -->
+  <rect x="156" y="96" width="200" height="320" rx="32" fill="#0F172A" stroke="#334155" stroke-width="6"/>
+
+  <!-- Display Window -->
+  <rect x="176" y="118" width="160" height="64" rx="14" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Display Elements (Specification status & readout) -->
+  <path d="M 194 142 L 202 150 L 194 158" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="210" y="148" width="12" height="4" rx="2" fill="#38BDF8"/>
+  <circle cx="306" cy="150" r="4" fill="#818CF8"/>
+  <circle cx="320" cy="150" r="4" fill="#38BDF8"/>
+
+  <!-- Plus (+) Button -->
+  <rect x="176" y="200" width="74" height="90" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <path d="M 213 231 L 213 259 M 199 245 L 227 245" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Minus (−) Button -->
+  <rect x="262" y="200" width="74" height="90" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <path d="M 286 245 L 312 245" stroke="#818CF8" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Multiply (×) Button -->
+  <rect x="176" y="306" width="74" height="90" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <path d="M 203 341 L 223 361 M 223 341 L 203 361" stroke="#818CF8" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Equals (=) Highlighted Action Button -->
+  <rect x="262" y="306" width="74" height="90" rx="16" fill="#38BDF8"/>
+  <path d="M 286 346 L 312 346 M 286 356 L 312 356" stroke="#0F172A" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,31 +1,31 @@
-# OpenSpec Calculator
+<div align="center">
+  <img src="static/logo/openspec-horizontal.svg" alt="OpenSpec Calculator" width="480">
+  <p>A modern, specification-driven web calculator built with Flask.</p>
+</div>
 
-## Workflow Type
+---
 
-This branch demonstrates rapid AI-assisted vibe coding workflow focused on fast iterative development and creative UI experimentation.
+## Live Demo
+
+🌐 **[OpenSpec Calculator](https://calculator-python-app-three.vercel.app/)**
+
+---
+
+## Brand Identity
+
+OpenSpec Calculator combines specification-driven development concepts with a computational interface. The logo uses specification brackets and calculator operators to represent structured specifications and computation.
 
 ---
 
 ## Features
 
-- Modern Glassmorphism UI
-- Clickable Calculator Buttons
-- Keyboard Support
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Responsive Design
-- Calculation History
-- Clear History Feature
-- Sound Effects
-- Interactive UI Animations
-
----
-
-## Development Style
-
-This branch focuses on rapid AI-assisted development using iterative prompting, UI experimentation, and fast feature implementation.
+- **Core Arithmetic**: Addition (`+`), subtraction (`−`), multiplication (`×`), and division (`/`)
+- **Decimal Support**: Precision calculations with decimal values
+- **Display Controls**: Clear all (`C`) and single-character backspace (`⌫`)
+- **Calculation History**: Persistent session log of past operations with a clear-history option
+- **Keyboard Navigation**: Full keyboard input support (number keys, arithmetic operators, Enter, Backspace, Escape)
+- **Audio Feedback**: Subtle auditory clicks on button interaction
+- **Modern Interface**: Glassmorphism dark-theme styling with responsive mobile support
 
 ---
 
@@ -33,28 +33,23 @@ This branch focuses on rapid AI-assisted development using iterative prompting, 
 
 - Python
 - Flask
+- Jinja2
 - HTML
 - CSS
 - JavaScript
+- Vercel
 
 ---
 
 ## Screenshots
 
 ### Main Calculator UI
+![Main Calculator UI](screenshots/calculator-ui_01.png)
 
-![Main UI](screenshots/calculator-ui_01.png)
-
----
-
-### Calculator Working
-
+### Active Calculation
 ![Calculator Working](screenshots/calculator-ui_02.png)
 
----
-
 ### History Feature
-
 ![History Feature](screenshots/calculator-ui_03.png)
 
 ---
@@ -80,6 +75,13 @@ calculator-python-app/
 │   └── ui_spec.yaml
 │
 ├── static/
+│   ├── logo/
+│   │   ├── openspec-horizontal-darkbg.png
+│   │   ├── openspec-horizontal.png
+│   │   ├── openspec-horizontal.svg
+│   │   ├── openspec-icon-darkbg.png
+│   │   ├── openspec-icon.png
+│   │   └── openspec-icon.svg
 │   └── style.css
 │
 ├── templates/
@@ -94,32 +96,29 @@ calculator-python-app/
 
 ---
 
-## Vibe Coding Workflow
+## Getting Started
 
-1. Generate ideas using AI prompts
-2. Rapidly implement features
-3. Experiment with UI design
-4. Improve interactivity iteratively
-5. Refine calculator experience
-6. Enhance responsiveness and styling
+### Prerequisites
 
----
+- Python 3.8+
+- pip
 
-## Installation
+### Installation
 
-```bash
-pip install -r requirements.txt
-python app.py
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mrashish18/calculator-python-app.git
+   cd calculator-python-app
+   ```
 
----
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## AI Prompt Workflow
+3. Run the development server:
+   ```bash
+   python app.py
+   ```
 
-The project uses AI-assisted prompt engineering for:
-- UI generation
-- Feature enhancement
-- Rapid prototyping
-- Interactive frontend improvements
-
----
+4. Open your browser and navigate to the application address shown in your terminal.

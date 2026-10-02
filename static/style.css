@@ -57,6 +57,28 @@ h1 {
         0 0 12px #38bdf8;
 }
 
+.logo-wrapper {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+
+.logo-img {
+
+    max-width: 250px;
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+}
+
 .subtitle {
 
     color: #cbd5e1;

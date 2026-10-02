@@ -10,6 +10,10 @@
 
     <title>OpenSpec Calculator</title>
 
+    <link rel="icon"
+          type="image/svg+xml"
+          href="{{ url_for('static', filename='logo/openspec-icon.svg') }}">
+
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
 
@@ -19,7 +23,11 @@
 
     <div class="container">
 
-        <h1>OpenSpec Calculator</h1>
+        <div class="logo-wrapper">
+            <img src="{{ url_for('static', filename='logo/openspec-horizontal.svg') }}"
+                 alt="OpenSpec Calculator"
+                 class="logo-img">
+        </div>
 
         <p class="subtitle">
             AI Powered Modern Calculator
